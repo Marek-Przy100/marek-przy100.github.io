@@ -160,3 +160,15 @@ footer {
     text-align: center;
     margin-top: auto; 
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .text {
+        font-size: 14px; 
+    }
+
+    .photo img {
+        max-width: 100%; 
+        height: auto; 
+    }
+}
